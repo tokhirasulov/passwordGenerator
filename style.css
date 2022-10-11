@@ -1,0 +1,104 @@
+@font-face {
+    font-family: karla;
+    src: url(font/static/Karla-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(font/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter-light;
+    src: url(font/static/Inter-Light.ttf);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.background {
+    background-color: #1C1C1C;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    margin: 0px;
+    margin-left: 52px;
+}
+h1, p {
+    margin: 0;
+    padding: 0%;
+}
+#tittle-el {
+    color: #fff;
+    font-family: karla;
+    width: 370px;
+    margin-top: 115px;
+    font-size: 40px;
+    margin-left: 52px;
+
+}
+#green-tittle {
+    color: #4ADF86;
+}
+
+button {
+    font-family: inter;
+    font-size: 16px;
+    margin-left: 52px;
+    border: none;
+    border-radius: 6px;
+}
+
+#generate-password {
+    font-family: inter;
+    font-size: 16px;
+    padding: 9px 15px;
+    background-color: #10B981;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 51px;
+    margin-left: 52px;
+}
+#message-el {
+    font-family: inter;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 52px;
+}
+
+ #placeholder {
+    width: 446px;
+    border: none;
+    border-bottom: 1px solid #2F3E53;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    font-family: inter-light;
+    color: #fff;
+    margin-top: 35px;
+    margin-left: 52px;
+    padding: 5px;
+ }   
+
+#first-password, #second-password {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    margin-top: 35px;
+    font-size: 16px;
+    color: #55F991;
+    padding: 9px 15px;
+}
+#second-password {
+    margin-left: 24px;
+ }
